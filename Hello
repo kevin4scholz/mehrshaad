@@ -75,6 +75,6 @@ sudo systemctl enable celestia-appd
 sudo systemctl daemon-reload
 Press CTRL+C to stop the logs
 sudo systemctl stop celestia-appd
-cd $HOME
+
 
     
