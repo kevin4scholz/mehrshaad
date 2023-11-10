@@ -18,7 +18,6 @@ make install
 celestia-appd version
 go version
 cd $HOME
-rm -rf celestia-app
   
  
 
