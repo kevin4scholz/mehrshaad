@@ -15,7 +15,7 @@ git clone https://github.com/celestiaorg/celestia-app.git
 cd celestia-app
     cd $HOME
  echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
-
+sudo rm -rf /usr/local/go
 
 
 
