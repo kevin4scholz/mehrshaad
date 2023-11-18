@@ -22,5 +22,4 @@ CELESTIA_WALLET="MY_WALLET"
 CELESTIA_CHAIN="mamaki"
 CELESTIA_NODENAME="amir" 
 CELESTIA_WALLET="amir8372"
-git clone https://github.com/celestiaorg/celestia-app.git
     
