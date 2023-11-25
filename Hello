@@ -56,3 +56,4 @@ CELESTIA_WALLET="MY_WALLET"
 CELESTIA
 go version
 sudo tar-c
+git clone https://github.com/celestiaorg/celestia-app.git
