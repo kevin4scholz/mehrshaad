@@ -57,3 +57,5 @@ CELESTIA
 go version
 sudo tar-c
 git clone https://github.com/celestiaorg/celestia-app.git
+echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
+wget "https://
