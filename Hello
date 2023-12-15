@@ -73,3 +73,5 @@ wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME} | tar xf - \
 max_num_inbound_peers=40 
 max_num_outbound_peers=10 
 max_connections=50
+pruning_keep_recent="100" 
+pruning_interval="10"
