@@ -49,7 +49,6 @@ sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
 CELESTIA_NODENAME="MY_NODE" 
 CELESTIA_WALLET="MY_WALLET"
 git clone https://github.com/celestiaorg/celestia-app.git
-go version
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 wget "https://
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
