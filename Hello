@@ -52,6 +52,8 @@ echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 wget "https://
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
 CELESTIA_NODENAME="MY_NODE" 
+
+rm -rf celestia-app
 CELESTIA_WALLET="MY_WALLET"
  echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 sudo apt update && sudo apt upgrade -y
