@@ -9,7 +9,7 @@ rm "go$ver.linux-amd64.tar.gz"
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 git clone https://github.com/celestiaorg/celestia-app.git
- d celestia-app
+
  echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 sudo rm -rf /usr/local/go
 sudo apt update && sudo apt upgrade -y
