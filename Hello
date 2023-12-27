@@ -59,5 +59,3 @@ rm -rf ~/.celestia-app/data
 SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia/ | \
     egrep -o ">mamaki.*tar" | tr -d ">")
 max_num_inbound_peers=40 
-max_num_outbound_peers=10 
-max_connections=50
