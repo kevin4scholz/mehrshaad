@@ -4,7 +4,6 @@ sudo apt update && sudo apt upgrade -y
 ver="1.18.3"
 sudo rm -rf /usr/local/go
 git clone https://github.com/celestiaorg/celestia-app.git
-  sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu -y
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
 source $HOME/.bash_profile
