@@ -5,7 +5,6 @@ ver="1.18.3"
 sudo rm -rf /usr/local/go
 git clone https://github.com/celestiaorg/celestia-app.git
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
-source $HOME/.bash_profile
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 sudo rm -rf /usr/local/go
