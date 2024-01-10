@@ -8,7 +8,6 @@ sudo rm -rf /usr/local/go
     source $HOME/.bash_profile
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
 CELESTIA_WALLET="MY_WALLET"
-CELESTIA_CHAIN="mamaki"
 CELESTIA_NODENAME="mehrshad" 
     rm "go$ver.linux-amd64.tar.gz"
 sed -i -e "s/^use-legacy *=.*/use-legacy = false/;\
