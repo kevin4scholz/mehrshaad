@@ -10,7 +10,6 @@ sed -i -e "s/^use-legacy *=.*/use-legacy = false/;\
 s/^max-num-inbound-peers *=.*/max-num-inbound-peers = $max_num_inbound_peers/;\
 s/^max-num-outbound-peers *=.*/max-num-outbound-peers = $max_num_outbound_peers/;\
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
-git clone https://github.com/celestiaorg/celestia-app.git
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
 
