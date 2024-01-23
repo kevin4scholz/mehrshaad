@@ -10,5 +10,4 @@ s/^max-num-outbound-peers *=.*/max-num-outbound-peers = $max_num_outbound_peers/
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 s/^max-num-inbound-peers *=.*/max--inbound-peers = $max_num_inbound_peers/;\
-s/^max-num-outbound-peers *=.*/max-num-outbound-peers = $max_num_outbound_peers/;\
 
