@@ -1,6 +1,5 @@
 sudo apt update && sudo apt upgrade -y
   cd $HOME
-ver="1.18.3"
 
 
 
